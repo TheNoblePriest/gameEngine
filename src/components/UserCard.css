@@ -1,0 +1,23 @@
+.userCard{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+
+}
+.userCard:hover{
+    background-color: rgba(255, 235, 235, 0.651);
+}
+.userCard__logo{
+    padding: 0 10px;
+}
+.userCard__userName > h3{
+  font-size: 14px;
+}
+
+.userCard__userName > p{
+    font-size: 10px;
+}

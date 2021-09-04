@@ -1,0 +1,141 @@
+.gameRecom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.gameRecom__top{
+    margin: 10px 0 ;
+    width: 95%;
+    height: 25%;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4);
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+.topText{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topText__btn{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.topText__btn > button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(255, 50, 50);
+}
+.topImage > img{
+   transform: scale(1.4);
+}
+
+.gameRecom__center{
+    width: 93%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+
+}
+
+.center__cards{
+    width: 100%;
+    overflow-y: hidden;
+    display: flex;
+    /* border: 3px solid black; */
+} 
+.card__swipe{
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+} 
+
+.center__cards::-webkit-scrollbar{
+    display: none;
+}
+.center__topic{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    color: gray;
+}
+.center__topic > h2{
+    padding-left: 5px;
+}
+.gameRecom__bottom{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.gameRecom__bottomGame1{
+    height: 100%;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5 );
+}
+.gameRecom__bottomGame1 > img{
+    width: 100%;
+    height: 100%;
+
+}
+.textTop1{
+    width:90%;
+    padding: 10px;
+    display: flex;
+    /* color: white; */
+    justify-content: space-between;
+    align-items: center;
+}
+.gameRecom__accer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gameRecom__accer > img{
+    width: 150px;
+    /* height: 100%; */
+}
+.gameRecom__bottomGame2{
+    width: 60%;
+    height: 95%;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.541);
+}
+.gameRecom__header{
+    width: 96%;
+    display: flex;
+    padding: 0 10px ;
+    justify-content: space-between;
+}
